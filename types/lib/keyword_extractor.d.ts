@@ -1,5 +1,5 @@
 
-type LanguageName = "danish"|"dutch"|"english"|"french"|"galician"|"german"|"italian"|"polish"|"portuguese"|"romanian"|"russian"|"spanish"|"swedish";
+type LanguageName ="english"|"spanish";
 type GetStopwordsOptions = {language?: LanguageName};
 type ExtractionOptions = {
   remove_digits?: boolean;
